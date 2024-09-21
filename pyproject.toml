@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "problem3"
+version = "0.1.0"
+description = "Package for problem 3 of assignment one"
+authors = ["corwindark <corwindark.spam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+sphynx = "^0.0.3"
+sphinx = "^8.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
